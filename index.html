@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TEKA-TEKI NUSANTARA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="container">
+    <h1>Tebak Kata - Crossword</h1>
+    <div id="timer">60</div>
+    <div id="crossword-container">
+      <iframe id="crossword1" class="crossword" src="tts1.html" width="800" height="600"></iframe>
+      <iframe id="crossword2" class="crossword" src="tts2.html" width="800" height="600"></iframe>
+      <iframe id="crossword3" class="crossword" src="tts3.html" width="800" height="600"></iframe>
+    </div>
+    <div id="score" style="display: none;">Skor: <span id="final-score"></span></div>
+    <div id="game-over" style="display: none;">
+      <h2>Permainan Berakhir!</h2>
+      <p>Skor Anda: <span id="final-score"></span></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

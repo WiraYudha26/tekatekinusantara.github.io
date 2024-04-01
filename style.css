@@ -1,0 +1,18 @@
+  body {
+    background-image: url(beach.jpg)
+  }
+  
+  #container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  #crossword-container {
+    display: none;
+  }
+  
+  .crossword {
+    display: none;
+    margin: 20px auto;
+  }
+  
